@@ -18,3 +18,6 @@ This project demonstrates my skills in JavaScript, web development, and API inte
   - Asynchronous requests using `async/await`.
   - DOM manipulation to update the page dynamically.
   - Event handling to trigger API calls on button clicks.
+
+## Demo
+![Alt Text](/home/ramya-d/Pictures/Screenshots/)
