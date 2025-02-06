@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Pokedex</title>
+    <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="pokedex">
+        <img src="Pokedex_logo.png" alt="Pokedex logo" id="logo">
+        <div class="screen">
+            <div id="pokemon-info">Press a button to get a Pokémon</div>
+            <img id="pokemon-image" class="pokemon-display" src="" alt="Pokemon">
+        </div>
+        <div class="buttons">
+            <button class="button" onclick="getPokemon()"></button>
+            <button class="button"></button>
+        </div>
+    </div>
+    <script src="https://unpkg.com/pokeapi-js-wrapper/dist/index.js"></script>
+    <script src="app.js"></script>
+</body>
+</html>
